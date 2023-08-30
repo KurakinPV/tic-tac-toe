@@ -43,11 +43,7 @@ def tie():
     return my_font_big.render(f'Ничья!', True, 'Black')
 
 
-def bot_hard():
-    if arr[1][1] == 0:
-        axes = (0, 1)
-        screen.blit(bot_turn(*axes), get_coordinate(*axes))
-    # elif random.randint(0,4)
+
 
 
 def bot_simple():
